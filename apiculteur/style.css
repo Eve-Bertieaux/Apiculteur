@@ -1,6 +1,5 @@
 *::after, ::before{
     
-}
 
 body
 {
@@ -66,7 +65,7 @@ h1
 }
 
 #nav a:hover{
-    color: #C0BED4;
+    color: 	#4cbceb;
 }
 
 #conteneur
@@ -136,6 +135,41 @@ h1
     margin-top: 10px;
 }
 
+/* section parallax */
+
+.section-parallax {
+    width: 100%;
+    height: 350px;
+    background: url(images/photoabfixe.avif) no-repeat right / cover fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.txt-par {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 50px;
+    color: #eb7b4c;
+
+}
+
+.txt-par:hover {
+    color: 	#4cbceb;
+    cursor: pointer;
+}
+
+txt-par:nth-child(1) {
+    padding-left: 300px;
+}
+
+
+
+    
+
+
 /*contact*/
 
 .contact-info, .horaires, .localisation {
@@ -164,3 +198,6 @@ h1
     height: 300px;
     border: none;
 }
+
+
+
