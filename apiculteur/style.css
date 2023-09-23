@@ -1,3 +1,7 @@
+*::after, ::before{
+    
+}
+
 body
 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -5,12 +9,14 @@ body
 
 header{
     margin: 0;
+    margin-bottom: 100px;
     padding: 0;
     width: 100%;
-    height: 1080px;
-    background: url(images/abeille1.bmp) no-repeat center center;
+    height: 100vh;
+    
+    background: url(images/abeilebutine.jpg) no-repeat center center;
     background-size: cover;
-    color: #444;
+    color: #eb7b4c;
 }
 
 .wrapper
@@ -24,8 +30,8 @@ header{
     height: 100%;
     text-align: center;
     vertical-align: middle;
-    margin: 50px;
-    padding: 100px;
+    margin: 10px;
+    padding: 30px;
 }
 
 h1
@@ -40,7 +46,8 @@ h1
 
 #nav 
 {
-	padding: 20px; margin: 20px;
+	padding: 20px; 
+    margin: 20px;
 	text-align: right; /* le texte à droite */
 }
 
@@ -59,7 +66,7 @@ h1
 }
 
 #nav a:hover{
-    color: purple;
+    color: #C0BED4;
 }
 
 #conteneur
@@ -79,9 +86,84 @@ h1
     
 }
 
-.texte h3, .texte p
+.texte h3
 {   width: 600px;
     margin: 20px;
     color: #444;
+    font-size: 25px;
 }
-  
+
+.texte p
+{   width: 600px;
+    margin: 20px;
+    color: #444;
+    font-size: 19px;
+}
+
+/*fiches*/
+
+#produits
+{
+    margin: 30px;
+    padding: 50px;
+    text-align: center;
+    width: 400px;
+}
+
+.fiche 
+{
+    border: 1px solid #eb7b4c;
+    padding: 30px 30px 60px 30px;
+    margin: 10px 30px 30px 60px;
+    width: 400px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+}
+    
+
+.fiche img {
+    width: 300px;
+    
+}
+
+.fiche h2 {
+    margin-top: 10px;
+    
+}
+
+.fiche p {
+    margin-top: 10px;
+}
+
+/*contact*/
+
+.contact-info, .horaires, .localisation {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.contact-info h2, .horaires h2, .localisation h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-info p, .horaires p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.localisation iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+.h2{
+    font-size: 36px;
+}
