@@ -1,16 +1,23 @@
-body{
+body
+{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 header{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 980px;
+    height: 1080px;
     background: url(images/abeille1.bmp) no-repeat center center;
     background-size: cover;
+    color: #444;
 }
-.wrapper{display: table;
+
+.wrapper
+{
+    display: table;
 }
+
 .content{
     text-align: center;
     width: 100%;
@@ -20,17 +27,61 @@ header{
     margin: 50px;
     padding: 100px;
 }
-h1{font-size: 65px;}
-#nav {
+
+h1
+{
+    font-size: 65px;
+    background: url(images/abeillevolante.gif);
+}
+.subtitle{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#nav 
+{
 	padding: 20px; margin: 20px;
 	text-align: right; /* le texte à droite */
 }
-#nav li {
+
+#nav li 
+{
 	display: inline;
 	list-style: none;
-}
-#nav a {
     
+}
+
+#nav a {
+    text-decoration: none;
 	display:inline-block;
 	margin: 0 30px;
+    color: #444;
 }
+
+#nav a:hover{
+    color: purple;
+}
+
+#conteneur
+{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    padding: 100px;
+    margin: 80px;
+    
+}
+
+.image
+{
+    margin-left: 10px;
+    border-radius: 10px;
+    
+}
+
+.texte h3, .texte p
+{   width: 600px;
+    margin: 20px;
+    color: #444;
+}
+  
